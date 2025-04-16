@@ -6,7 +6,7 @@ import { Component03Component } from "./component03/component03.component";
 import { Component04Component } from "./component04/component04.component";
 import { Component05Component } from "./component05/component05.component";
 import { Componente06Component } from "./component06/componente06.component";
-import { Component07Component } from "./component07-ngStyle/component07.component";
+import { Component07Component } from "./component07-ngStyle&ngClass/component07.component";
 
 @Component({
   selector: 'app-root',
