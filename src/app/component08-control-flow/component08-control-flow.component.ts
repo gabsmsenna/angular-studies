@@ -8,4 +8,8 @@ import { Component } from '@angular/core';
 })
 export class Component08ControlFlowComponent {
   media:number = 3;
+
+  nomes:string[] = [ 'Gabriel', 'Maria', 'Emily'];
+
+  linguagem: string = 'PHP';
 }

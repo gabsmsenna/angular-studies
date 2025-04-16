@@ -5,3 +5,25 @@
 } @else {
   <p>Reprovado!</p>
 }
+
+@for (nome of nomes; track $index) {
+  <p>{{$index}} - {{nome}}</p>
+}
+
+@switch (linguagem) {
+  @case ('HTML') {
+    <p>HTML</p>
+  }
+
+  @case ('CSS') {
+    <p>CSS</p>
+  }
+
+  @case ('JS') {
+    <p>JS</p>
+  }
+
+  @default {
+    <p>Opção inválida</p>
+  }
+}
