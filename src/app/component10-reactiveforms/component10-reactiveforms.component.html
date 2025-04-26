@@ -1,0 +1,7 @@
+<p>{{form.value.nome}}</p>
+<p>{{form.value.cidade}}</p>
+
+<form [formGroup]="form">
+  <input type="text" formControlName="nome">
+  <input type="text" formControlName="cidade">
+</form>
