@@ -8,10 +8,11 @@ import { Component05Component } from "./component05-ngFor/component05.component"
 import { Componente06Component } from "./component06-ngSwitch/componente06.component";
 import { Component07Component } from "./component07-ngStyle&ngClass/component07.component";
 import { Component08ControlFlowComponent } from "./component08-control-flow/component08-control-flow.component";
+import { Component09FormsmoduleComponent } from "./component09-formsmodule/component09-formsmodule.component";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Component01Component, Component02Component, Component03Component, Component04Component, Component05Component, Componente06Component, Component07Component, Component08ControlFlowComponent],
+  imports: [RouterOutlet, Component01Component, Component02Component, Component03Component, Component04Component, Component05Component, Componente06Component, Component07Component, Component08ControlFlowComponent, Component09FormsmoduleComponent],
   templateUrl: './app.component.html',
 })
 export class AppComponent {
