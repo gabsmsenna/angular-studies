@@ -1,16 +1,16 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { Component01Component } from "./component01-interpolacao/component01.component";
-import { Component02Component } from "./component02-eventBinding/component02.component";
-import { Component03Component } from "./component03-propertyBinding/component03.component";
-import { Component04Component } from "./component04-ngIf/component04.component";
-import { Component05Component } from "./component05-ngFor/component05.component";
-import { Componente06Component } from "./component06-ngSwitch/componente06.component";
-import { Component07Component } from "./component07-ngStyle&ngClass/component07.component";
-import { Component08ControlFlowComponent } from "./component08-control-flow/component08-control-flow.component";
-import { Component09FormsmoduleComponent } from "./component09-formsmodule/component09-formsmodule.component";
-import { Component10ReactiveformsComponent } from "./component10-reactiveforms/component10-reactiveforms.component";
-import { Component11ProjectComponent } from "./component11-project/component11-project.component";
+import { Component01Component } from "../ralf-course/component01-interpolacao/component01.component";
+import { Component02Component } from "../ralf-course/component02-eventBinding/component02.component";
+import { Component03Component } from "../ralf-course/component03-propertyBinding/component03.component";
+import { Component04Component } from "../ralf-course/component04-ngIf/component04.component";
+import { Component05Component } from "../ralf-course/component05-ngFor/component05.component";
+import { Componente06Component } from "../ralf-course/component06-ngSwitch/componente06.component";
+import { Component07Component } from "../ralf-course/component07-ngStyle&ngClass/component07.component";
+import { Component08ControlFlowComponent } from "../ralf-course/component08-control-flow/component08-control-flow.component";
+import { Component09FormsmoduleComponent } from "../ralf-course/component09-formsmodule/component09-formsmodule.component";
+import { Component10ReactiveformsComponent } from "../ralf-course/component10-reactiveforms/component10-reactiveforms.component";
+import { Component11ProjectComponent } from "../ralf-course/component11-project/component11-project.component";
 
 @Component({
   selector: 'app-root',
